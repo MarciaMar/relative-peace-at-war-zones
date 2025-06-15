@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import TechniquesList from "./pages/TechniquesList";
 import Research from "./pages/Research";
+import KidsHome from "./pages/KidsHome";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/techniques" element={<TechniquesList />} />
           <Route path="/research" element={<Research />} />
+          <Route path="/kids" element={<KidsHome />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
@@ -27,5 +29,4 @@ const App = () => (
     </TooltipProvider>
   </QueryClientProvider>
 );
-
 export default App;

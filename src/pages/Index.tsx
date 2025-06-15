@@ -30,6 +30,14 @@ const Index = () => {
             </button>
           </Link>
         </div>
+        {/* Add link to kids' app */}
+        <div className="flex justify-center mt-6">
+          <Link to="/kids">
+            <button className="px-5 py-2 rounded-lg bg-pink-300 dark:bg-pink-700 text-white font-bold text-lg hover:bg-pink-400 dark:hover:bg-pink-600 shadow animate-scale-in">
+              ✨ Try the Kids' Zone (Animal Friends) ✨
+            </button>
+          </Link>
+        </div>
         <div className="text-xs text-center text-muted-foreground pt-2">
           <span>
             Built for humanity. Free forever. Please share and help others find peace, even in the hardest times.
