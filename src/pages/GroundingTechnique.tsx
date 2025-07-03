@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Eye, Ear, Hand, Nose, Zap } from "lucide-react";
+import { Eye, Ear, Hand, ArrowUp, Zap } from "lucide-react";
 
 const GroundingTechnique = () => {
   const [currentStep, setCurrentStep] = useState(0);
@@ -36,7 +36,7 @@ const GroundingTechnique = () => {
     {
       number: 2,
       sense: "Smell",
-      icon: Nose,
+      icon: ArrowUp,
       color: "orange",
       instruction: "Find 2 things you can smell",
       examples: ["the air", "my clothes", "something nearby"]
