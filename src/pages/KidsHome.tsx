@@ -1,7 +1,6 @@
-
 import React from "react";
 import AnimalCard from "../components/AnimalCard";
-import { PawPrint, Ship, Owl, Bot, SmilePlus } from "lucide-react";
+import { PawPrint, Ship, Eye, Bot, SmilePlus } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const animalFriends = [
@@ -13,9 +12,9 @@ const animalFriends = [
   },
   {
     name: "Wise Owl",
-    icon: Owl,
+    icon: Eye,
     colorClass: "bg-yellow-100 dark:bg-yellow-800",
-    story: "They say wisdom comes from listening. Let’s try gentle reflection games and learn together.",
+    story: "They say wisdom comes from listening. Let's try gentle reflection games and learn together.",
   },
   {
     name: "Pretty Ship",

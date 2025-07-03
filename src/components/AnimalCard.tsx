@@ -1,6 +1,5 @@
-
 import React from "react";
-import { LucideIcon, PawPrint, Ship, Owl, Bot, SmilePlus } from "lucide-react";
+import { LucideIcon, PawPrint, Ship, Eye, Bot, SmilePlus } from "lucide-react";
 
 type AnimalCardProps = {
   name: string;
