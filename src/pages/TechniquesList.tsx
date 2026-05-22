@@ -48,9 +48,9 @@ const techniqueData = [
   {
     title: "Self-Soothing & Havening",
     icon: Hand,
-    description: "Hands-on havening and self-comfort exercises.",
+    description: "Slow self-touch on palms, arms and face to trigger calming delta waves. Timed guide with growing smile.",
     link: "/technique/havening",
-    ready: false
+    ready: true
   },
   {
     title: "Movement",
