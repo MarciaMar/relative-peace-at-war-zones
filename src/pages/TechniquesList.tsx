@@ -41,9 +41,9 @@ const techniqueData = [
   {
     title: "Eye Movement (Bilateral)",
     icon: Eye,
-    description: "Safe DIY eye movement for processing stress.",
+    description: "Follow a moving dot side-to-side to calm distressing feelings (self-help EMDR).",
     link: "/technique/emdr",
-    ready: false
+    ready: true
   },
   {
     title: "Self-Soothing & Havening",
