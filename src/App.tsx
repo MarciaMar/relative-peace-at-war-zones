@@ -15,6 +15,7 @@ import JournalingTechnique from "./pages/JournalingTechnique";
 import GroundingTechnique from "./pages/GroundingTechnique";
 import PMRTechnique from "./pages/PMRTechnique";
 import FrequenciesTechnique from "./pages/FrequenciesTechnique";
+import EyeMovementTechnique from "./pages/EyeMovementTechnique";
 
 const queryClient = new QueryClient();
 
