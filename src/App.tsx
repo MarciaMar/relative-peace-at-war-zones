@@ -36,6 +36,7 @@ const App = () => (
           <Route path="/technique/grounding" element={<GroundingTechnique />} />
           <Route path="/technique/pmr" element={<PMRTechnique />} />
           <Route path="/technique/frequencies" element={<FrequenciesTechnique />} />
+          <Route path="/technique/emdr" element={<EyeMovementTechnique />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
