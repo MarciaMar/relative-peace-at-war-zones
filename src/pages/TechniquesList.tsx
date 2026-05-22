@@ -62,9 +62,9 @@ const techniqueData = [
   {
     title: "Healing Frequencies",
     icon: Headphones,
-    description: "Soothing Hz soundscapes for sleep, calm and focus.",
+    description: "5 binaural beats for sleep, calm, focus and compassion. Headphones required.",
     link: "/technique/frequencies",
-    ready: false
+    ready: true
   }
 ];
 
