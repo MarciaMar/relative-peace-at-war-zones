@@ -10,7 +10,7 @@ const KidsBreathing = () => {
   const [cycles, setCycles] = useState(0);
 
   useEffect(() => {
-    let interval: NodeJS.Timeout;
+    let interval: ReturnType<typeof setInterval>;
     
     if (isActive) {
       interval = setInterval(() => {

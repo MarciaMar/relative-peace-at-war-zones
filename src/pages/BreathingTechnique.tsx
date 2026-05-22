@@ -17,7 +17,7 @@ const BreathingTechnique = () => {
   };
 
   useEffect(() => {
-    let interval: NodeJS.Timeout;
+    let interval: ReturnType<typeof setInterval>;
     
     if (isActive) {
       interval = setInterval(() => {
