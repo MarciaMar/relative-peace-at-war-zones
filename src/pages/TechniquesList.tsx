@@ -34,9 +34,9 @@ const techniqueData = [
   {
     title: "Tapping (EFT)",
     icon: BookOpenCheck,
-    description: "Relieve stress using acupressure points and affirmations.",
+    description: "Tap 9 acupressure points to calm the vagus nerve and reduce stress & trauma activation.",
     link: "/technique/tapping",
-    ready: false
+    ready: true
   },
   {
     title: "Eye Movement (Bilateral)",

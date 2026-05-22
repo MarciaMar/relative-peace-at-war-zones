@@ -16,6 +16,7 @@ import GroundingTechnique from "./pages/GroundingTechnique";
 import PMRTechnique from "./pages/PMRTechnique";
 import FrequenciesTechnique from "./pages/FrequenciesTechnique";
 import EyeMovementTechnique from "./pages/EyeMovementTechnique";
+import TappingTechnique from "./pages/TappingTechnique";
 
 const queryClient = new QueryClient();
 
@@ -37,6 +38,7 @@ const App = () => (
           <Route path="/technique/pmr" element={<PMRTechnique />} />
           <Route path="/technique/frequencies" element={<FrequenciesTechnique />} />
           <Route path="/technique/emdr" element={<EyeMovementTechnique />} />
+          <Route path="/technique/tapping" element={<TappingTechnique />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
