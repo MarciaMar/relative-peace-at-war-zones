@@ -53,11 +53,11 @@ const techniqueData = [
     ready: true
   },
   {
-    title: "Movement",
+    title: "Movement & Somatic Release",
     icon: MoveRight,
-    description: "Gentle, accessible somatic and stretching exercises.",
+    description: "6 research-based body exercises: shaking, Voo sound, wall push, butterfly hug, forward fold, self-hug. Discharge stored trauma.",
     link: "/technique/movement",
-    ready: false
+    ready: true
   },
   {
     title: "Healing Frequencies",
