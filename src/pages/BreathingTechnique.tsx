@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Play, Pause, RotateCcw, Heart } from "lucide-react";
+import SessionTracker from "@/components/SessionTracker";
 
 const BreathingTechnique = () => {
   const [isActive, setIsActive] = useState(false);
