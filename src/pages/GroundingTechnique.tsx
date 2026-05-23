@@ -86,7 +86,6 @@ const GroundingTechnique = () => {
   const currentResponses = responses[currentStep] || [];
 
   return (
-    <SessionTracker techniqueName="Grounding" />
 
     <div className="min-h-screen bg-background flex flex-col items-center pt-8 px-4">
       <div className="w-full max-w-2xl rounded-lg shadow-lg p-8 bg-white dark:bg-secondary space-y-6">
@@ -220,6 +219,8 @@ const GroundingTechnique = () => {
         </div>
 
         <div className="text-center">
+          <SessionTracker techniqueName="Grounding" />
+
           <Link to="/techniques" className="text-primary underline hover-scale">
             ← Back to Techniques
           </Link>

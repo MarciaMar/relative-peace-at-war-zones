@@ -64,7 +64,6 @@ const HaveningTechnique = () => {
   const done = elapsed >= TOTAL;
 
   return (
-    <SessionTracker techniqueName="Havening Touch" />
 
     <div className="min-h-screen bg-background flex flex-col items-center pt-8 px-4 pb-12">
       <div className="w-full max-w-3xl rounded-lg shadow-lg p-6 md:p-8 bg-white dark:bg-secondary space-y-6">
@@ -176,6 +175,8 @@ const HaveningTechnique = () => {
         </div>
 
         <div className="text-center">
+          <SessionTracker techniqueName="Havening Touch" />
+
           <Link to="/techniques" className="text-primary underline">← Back to Techniques</Link>
         </div>
       </div>

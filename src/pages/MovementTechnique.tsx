@@ -169,7 +169,6 @@ const MovementTechnique = () => {
   }, [activeIdx]);
 
   return (
-    <SessionTracker techniqueName="Movement & Somatic Release" />
 
     <div className="min-h-screen bg-background pt-8 pb-16 px-4">
       <div className="max-w-3xl mx-auto">
@@ -248,6 +247,8 @@ const MovementTechnique = () => {
         </div>
 
         <div className="mt-8 text-center">
+          <SessionTracker techniqueName="Movement & Somatic Release" />
+
           <Link to="/techniques" className="text-primary underline">← Back to Techniques</Link>
         </div>
       </div>

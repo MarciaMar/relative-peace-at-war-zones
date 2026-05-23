@@ -149,9 +149,10 @@ const BreathingTechnique = () => {
           </p>
         </div>
 
-        <SessionTracker techniqueName="Breathing" />
 
         <div className="text-center">
+          <SessionTracker techniqueName="Breathing" />
+
           <Link to="/techniques" className="text-primary underline hover-scale">
             ← Back to Techniques
           </Link>
