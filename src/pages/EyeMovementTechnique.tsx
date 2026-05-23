@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import SessionTracker from "@/components/SessionTracker";
 import { Play, Pause, RotateCcw, Eye } from "lucide-react";
 
 const EyeMovementTechnique = () => {
@@ -32,6 +33,7 @@ const EyeMovementTechnique = () => {
   };
 
   return (
+
     <div className="min-h-screen bg-background flex flex-col items-center pt-8 px-4 pb-12">
       <div className="w-full max-w-2xl rounded-lg shadow-lg p-8 bg-white dark:bg-secondary space-y-6">
         <div className="text-center space-y-2">
@@ -148,6 +150,8 @@ const EyeMovementTechnique = () => {
         </div>
 
         <div className="text-center">
+          <SessionTracker techniqueName="Eye Movement" />
+
           <Link to="/techniques" className="text-primary underline hover-scale">
             ← Back to Techniques
           </Link>
