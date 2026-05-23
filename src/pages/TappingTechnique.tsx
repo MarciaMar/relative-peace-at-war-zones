@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import SessionTracker from "@/components/SessionTracker";
 import { Play, Pause, RotateCcw, Hand } from "lucide-react";
 
 /**
@@ -78,6 +79,8 @@ const TappingTechnique = () => {
   const done = round > RECOMMENDED_ROUNDS;
 
   return (
+    <SessionTracker techniqueName="Tapping (EFT)" />
+
     <div className="min-h-screen bg-background flex flex-col items-center pt-8 px-4 pb-12">
       <div className="w-full max-w-3xl rounded-lg shadow-lg p-6 md:p-8 bg-white dark:bg-secondary space-y-6">
         <div className="text-center space-y-2">

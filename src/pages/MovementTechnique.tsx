@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import SessionTracker from "@/components/SessionTracker";
 import { useEffect, useState } from "react";
 
 type Exercise = {
@@ -168,6 +169,8 @@ const MovementTechnique = () => {
   }, [activeIdx]);
 
   return (
+    <SessionTracker techniqueName="Movement & Somatic Release" />
+
     <div className="min-h-screen bg-background pt-8 pb-16 px-4">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl md:text-4xl font-bold text-primary mb-2">Movement & Somatic Release</h1>

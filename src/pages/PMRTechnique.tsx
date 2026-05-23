@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import SessionTracker from "@/components/SessionTracker";
 import { Play, Pause, SkipForward, RotateCcw, Zap } from "lucide-react";
 
 const PMRTechnique = () => {
@@ -132,6 +133,8 @@ const PMRTechnique = () => {
   };
 
   return (
+    <SessionTracker techniqueName="Progressive Muscle Relaxation" />
+
     <div className="min-h-screen bg-background flex flex-col items-center pt-8 px-4">
       <div className="w-full max-w-2xl rounded-lg shadow-lg p-8 bg-white dark:bg-secondary space-y-6">
         

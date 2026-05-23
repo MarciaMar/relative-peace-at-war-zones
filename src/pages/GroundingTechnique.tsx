@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import SessionTracker from "@/components/SessionTracker";
 import { Eye, Ear, Hand, ArrowUp, Zap } from "lucide-react";
 
 const GroundingTechnique = () => {
@@ -85,6 +86,8 @@ const GroundingTechnique = () => {
   const currentResponses = responses[currentStep] || [];
 
   return (
+    <SessionTracker techniqueName="Grounding" />
+
     <div className="min-h-screen bg-background flex flex-col items-center pt-8 px-4">
       <div className="w-full max-w-2xl rounded-lg shadow-lg p-8 bg-white dark:bg-secondary space-y-6">
         

@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import SessionTracker from "@/components/SessionTracker";
 import { Save, Download, Trash2, BookOpen } from "lucide-react";
 
 const JournalingTechnique = () => {
@@ -72,6 +73,8 @@ const JournalingTechnique = () => {
   };
 
   return (
+    <SessionTracker techniqueName="Journaling" />
+
     <div className="min-h-screen bg-background flex flex-col items-center pt-8 px-4">
       <div className="w-full max-w-4xl rounded-lg shadow-lg p-8 bg-white dark:bg-secondary space-y-6">
         

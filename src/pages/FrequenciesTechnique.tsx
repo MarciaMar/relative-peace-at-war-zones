@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import SessionTracker from "@/components/SessionTracker";
 import { Play, Pause, Headphones } from "lucide-react";
 
 type Freq = {
@@ -131,6 +132,8 @@ const Player = ({ freq }: { freq: Freq }) => {
   const ss = String(remaining % 60).padStart(2, "0");
 
   return (
+    <SessionTracker techniqueName="Healing Frequencies" />
+
     <div className="bg-white dark:bg-secondary border rounded-lg p-5">
       <div className="flex items-start justify-between gap-3 mb-2">
         <div>
