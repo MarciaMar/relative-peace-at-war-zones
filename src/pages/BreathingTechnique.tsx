@@ -149,6 +149,8 @@ const BreathingTechnique = () => {
           </p>
         </div>
 
+        <SessionTracker techniqueName="Breathing" />
+
         <div className="text-center">
           <Link to="/techniques" className="text-primary underline hover-scale">
             ← Back to Techniques
